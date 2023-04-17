@@ -1,0 +1,64 @@
+1. Write a blog on Difference between HTTP1.1 vs HTTP2
+------------------------------------------------------
+
+   HTTP:
+   ----
+     * HTTP stands for hypertext transfer protocol & it is used in client-server communication. 
+	 * It is the foundation of data communication for the World Wide Web.
+	 * By using HTTP user sends the request to the server & the server sends the response to the user.
+	 
+   	   ---------------------------------------------------|-------------------------------------------------------
+	                HTTP1.1                               |                   HTTP2 
+       ---------------------------------------------------|-------------------------------------------------------					   
+	  	                                                  |
+     *   HTTP1.1 was created in 1997.	                  | *  HTTP2 was created in 2015.
+	                                                      |
+	 *   It works on the textual format.	              | *  It works on the binary protocol.
+	                                                      |
+	 *   HTTP1.1 is slower than HTTP2                     | *  HTTP2 is much faster and more reliable than HTTP1. 
+	                                                      |
+	 *   There is head of line blocking that blocks       | *  It allows multiplexing so one TCP connection 
+         all the requests behind it until it doesn’t get  |    is required for multiple request.
+		 its all resources.                               |                            
+		                                                  |
+	 *   It uses requests resource Inlining for use       | *  It uses PUSH frame by server that collects  
+	     getting multiple pages.                          |    all multiple pages.
+		                                                  |
+	 *	 Expands on the caching support by using          | *  It is does not change much in terms of caching.
+         additional headers like cache-control.	          |
+														  |
+	 *   It compresses data by itself.	                  | *  It uses HPACK for data compression.
+       ------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------	   
+
+2. Write a blog about objects and its internal representation in Javascript
+---------------------------------------------------------------------------
+
+  Object in JavaScript:
+  --------------------- 
+      * In JavaScript, almost "everything" is an object.
+  
+      * Objects in programming can be a combination of variables, functions, and data structures.
+	  
+	  * Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+	  
+      *	A JavaScript object is a collection of named values.
+	  
+	  * Object values are written as  key : value pairs inside curly braces {}.
+	  
+	  
+	  * an example of a JavaScript Object:
+	    ----------------------------------
+	    
+		   let myCup = {color: "transparent", volume: 1, weight: 0.5}
+	 
+      	      
+			   variablename -> mycup ;
+			          key   -> color, volume , weight ;
+					  value -> "transparent" , 1 , 0.5 ;
+					  
+			 
+		    if i called method -> console.log(myCup) = {color: "transparent", volume: 1, weight: 0.5}
+			
+	  *  finally  objects are adding and also change the values. 
