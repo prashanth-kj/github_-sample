@@ -1,8 +1,8 @@
 1. Write a blog on Difference between HTTP1.1 vs HTTP2
 ------------------------------------------------------
 
-   HTTP:
-   ----
+       HTTP:
+       ----
          * HTTP stands for hypertext transfer protocol & it is used in client-server communication. 
 	 * It is the foundation of data communication for the World Wide Web.
 	 * By using HTTP user sends the request to the server & the server sends the response to the user.
